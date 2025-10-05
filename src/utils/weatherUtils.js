@@ -1,5 +1,5 @@
-// Replace with your actual API Gateway URL
-const API_ENDPOINT = "https://i3gheij89d.execute-api.ap-south-1.amazonaws.com/weather";
+// Your AWS API Gateway endpoint
+const API_ENDPOINT = "https://i3gheij89d.execute-api.ap-south-1.amazonaws.com/prod/weather";
 
 export async function fetchWeather(city) {
   try {
